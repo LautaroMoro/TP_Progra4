@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "/": {},
+    "/login": {},
+    "/quien-soy": {},
+    "/register": {}
+  }
+}
