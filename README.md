@@ -1,59 +1,112 @@
-# SalaJuegos
+# 🎮 Sala de Juegos 🕹️
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.9.
+## Alumno
+**Lautaro Moro**
 
-## Development server
+## 🚀 Deploy
+https://tp-progra4-one.vercel.app
 
-To start a local development server, run:
+## 📂 Repositorio
+https://github.com/LautaroMoro/TP_Progra4
 
-```bash
-ng serve
-```
+## 🛠️ Tecnologías Utilizadas
+- Angular 20
+- TypeScript
+- HTML5
+- CSS3
+- Angular Router
+- HttpClient
+- Git y GitHub
+- Vercel
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+# 📌 Sprint 1 - Estructura Inicial
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+En este primer sprint se desarrolló la estructura base del proyecto **Sala de Juegos**.
 
-```bash
-ng generate component component-name
-```
+## ✅ Funcionalidades Implementadas
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Creación del proyecto con Angular.
+- Deploy en Vercel.
+- Implementación de favicon personalizado.
+- Creación de los siguientes componentes:
+  -  Home
+  -  Login
+  -  Register
+  -  Quién Soy
+- Navegación entre componentes mediante Angular Router.
+- Consumo de la API de GitHub.
+- Visualización de datos personales obtenidos desde GitHub.
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+# 👤 Componente "Quién Soy"
 
-To build the project run:
+En esta sección se consume la API pública de GitHub:
 
-```bash
-ng build
-```
+https://api.github.com/users/LautaroMoro
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 📋 Datos Mostrados
+- Foto de perfil
+- Nombre completo
+- Nombre de usuario
+- Biografía
+- Cantidad de repositorios públicos
+- Seguidores
+- Siguiendo
 
-## Running unit tests
+Además, se incluye una descripción del juego propio y una explicación de cómo se jugará.
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+# 🎮 Juego Propio
 
-## Running end-to-end tests
+## 🧠 Nombre del Juego
+**Simon Digital**
 
-For end-to-end (e2e) testing, run:
+## 📖 Descripción
+Simon Digital es un juego de memoria secuencial inspirado en el clásico Simon Says. El sistema muestra una secuencia de colores y el jugador debe repetirla correctamente en el mismo orden.
 
-```bash
-ng e2e
-```
+## 🎯 Cómo se Juega
+1. El juego muestra una secuencia inicial de colores.
+2. El jugador repite la secuencia haciendo clic en los botones.
+3. Si la secuencia es correcta, se agrega un nuevo color.
+4. La dificultad aumenta en cada nivel.
+5. Si el jugador comete un error, el juego finaliza.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 🏆 Puntaje
+El puntaje corresponde al nivel máximo alcanzado por el jugador.
 
-## Additional Resources
+## ⭐ Objetivo
+Recordar y repetir la mayor cantidad posible de colores en el orden correcto.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+# 🌿 Organización del Repositorio
+
+El proyecto se organiza utilizando ramas por sprint:
+
+- `sprint1`: rama principal actual del repositorio.
+- `main`: rama base.
+- Cada nuevo sprint se desarrolla en ramas independientes.
+
+Cada sprint se entrega mediante un Pull Request.
+
+---
+
+# 📅 Estado Actual del Proyecto
+
+## ✅ Sprint 1
+- Estructura base del proyecto
+- Navegación entre componentes
+- API de GitHub
+- Favicon propio
+- Deploy activo en Vercel
+
+## ⏳ Próximos Sprints
+- Autenticación con Supabase 🔏
+- Formularios 📄
+- Implementación de los juegos 🔩🕹️
+- Chat en tiempo real⌛
+- Ranking de puntajes 💯
