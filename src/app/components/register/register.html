@@ -1,1 +1,17 @@
-<p>register works!</p>
+<h2>Registro</h2>
+
+<input
+  type="email"
+  [(ngModel)]="email"
+  placeholder="Correo electrónico"
+/>
+
+<input
+  type="password"
+  [(ngModel)]="password"
+  placeholder="Contraseña"
+/>
+
+<button (click)="registrarse()">Registrarse</button>
+
+<p>{{ mensaje }}</p>

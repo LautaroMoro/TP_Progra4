@@ -1,1 +1,17 @@
-<p>login works!</p>
+<h2>Login</h2>
+
+<input
+  type="email"
+  [(ngModel)]="email"
+  placeholder="Correo electrónico"
+/>
+
+<input
+  type="password"
+  [(ngModel)]="password"
+  placeholder="Contraseña"
+/>
+
+<button (click)="ingresar()">Ingresar</button>
+
+<p>{{ mensaje }}</p>
